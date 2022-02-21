@@ -5,11 +5,17 @@ python使用格式如下
 for 變數 in 範圍:
     #要做的事情
 ```
-### Code
+### Code_讀取range()
 ```python
 #輸出1到10
-i=0
 for i in range(1, 11):  #range()等等會講解
+    print (i)
+```
+### Code_讀取陣列(列表)
+```python
+#輸出列表的每一項值
+arr=['runoob', 786, 2.23, 'john', 70.2]
+for i in arr:
     print (i)
 ```
 
@@ -37,5 +43,5 @@ for num in range(10,20):    #反覆運算 10 到 20 之間的數字
 
 ## range()
 >+ range() 是 for 陳述句常用的迭代範圍
->+ Code中的range(1, 11) 代表 1到10
+>+ Code中的range(1, 11, 2) 代表 從1到10間隔為2, 如果沒寫預設為1
 >+ 11是代表到此為止的終點，不准越過，也不准涵蓋進去
