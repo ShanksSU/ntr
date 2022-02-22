@@ -32,7 +32,6 @@ def func02(a, b, c):        #傳入多個參數
     print(num)
 
 func()                      #執行def func():
-func(20)                    #執行def func01():
 func02(1,2,3)               #執行def func02(a, b, c):
 print (func01(10) + 10) #輸出變執行def func01(a):
 ```
