@@ -2,6 +2,7 @@
 > 這就是PHP的 function
 
 python使用格式如下
+
 ##無參數傳入
 ```
 def 函數名():
