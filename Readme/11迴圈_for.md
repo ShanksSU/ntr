@@ -5,10 +5,16 @@ python使用格式如下
 for 變數 in 範圍:
     #要做的事情
 ```
-### Code_讀取range()
+### Code_讀取range()_1
 ```python
 #輸出1到10
 for i in range(1, 11):  #range()等等會講解
+    print (i)
+```
+### Code_讀取range()_2
+```python
+#輸出1,3,5,7,9
+for i in range(1, 11, 2):  #range(初始值, 終點值, 間隔值)
     print (i)
 ```
 ### Code_讀取陣列(列表)
